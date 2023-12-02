@@ -1,7 +1,10 @@
 ﻿<%@ Page Title="home page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="project_class._Default" %>
 
+<asp:Content ID="PageTitleContent" ContentPlaceHolderID="PageTitle" runat="server">
+    <h2 class="title">Welcome to Y Games web site!!</h2>
+</asp:Content>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h1 class="title">Welcome to Y Games web site!!</h1>
+    
     <div class="slideshow-container">
         <div class="prev" onclick="javascript:previousSlide()">
             <span>❮</span>

@@ -112,6 +112,7 @@
     <Content Include="back\bootstrap-theme.min.css" />
     <Content Include="back\bootstrap.css" />
     <Content Include="back\bootstrap.min.css" />
+    <Content Include="Content\games.css" />
     <Content Include="Content\grid.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\slider.css" />
@@ -130,13 +131,16 @@
     <Content Include="back\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="pics\background.jpg.png" />
+    <Content Include="pics\block-breaker-games-page.png" />
     <Content Include="pics\fav_icon.png" />
     <Content Include="pics\my_logo.png" />
+    <Content Include="pics\pong-games-page.png" />
     <Content Include="pics\pong.png" />
     <Content Include="pics\searchicon.png" />
     <Content Include="pics\slide_image.png" />
     <Content Include="pics\slide_image2.png" />
     <Content Include="pics\slide_image3.png" />
+    <Content Include="pics\the-duel-games-page.png" />
     <Content Include="Register.aspx" />
     <Compile Include="Register.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>

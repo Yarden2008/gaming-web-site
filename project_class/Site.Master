@@ -52,6 +52,8 @@
             </nav>
         </header>
         <div class="content">
+            <asp:ContentPlaceHolder ID="PageTitle" runat="server">
+            </asp:ContentPlaceHolder>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
