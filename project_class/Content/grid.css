@@ -1,0 +1,85 @@
+﻿.grid-container {
+    display: inline-grid;
+    width: 100%;
+    justify-content: center;
+    grid-template-columns: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("/pics/background.jpg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+    .grid-container form {
+        display: grid;
+        grid-column: 1;
+        grid-template-columns: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .grid-container form header {
+        grid-column: 1;
+        display: grid;
+        grid-template-columns: 100%;
+        margin-top: -15px;
+    }
+
+        .grid-container form header .navbar {
+            display: inline-grid;
+            grid-template-columns: 110px 90%;
+            column-gap: 10px;
+            justify-content: start;
+            align-content: center;
+            align-items: stretch;
+            grid-column: 1;
+            background-color: darkblue;
+        }
+
+            .grid-container form header .navbar .navbar-brand {
+                grid-column: 1;
+            }
+
+                .grid-container form header .navbar .navbar-brand img {
+                    width: 100px;
+                    height: 40px;
+                    margin-top: 5px;
+                }
+
+            .grid-container form header .navbar .nav {
+                grid-column: 2;
+                display: inline-grid;
+                grid-template-columns: 10% 10% 10% 10% 10%;
+                justify-content: start;
+                list-style-type: none;
+                font-family: Arial;
+            }
+                .grid-container form header .navbar .nav a {
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: white;
+                }
+                    .grid-container form header .navbar .nav a:hover {
+                        color: gray;
+                    }
+
+        .grid-container form .content {
+            grid-column: 1;
+            display: inline-grid;
+            grid-template-columns: 100%;
+        }
+
+            .grid-container form .content .title {
+                grid-column: 1;
+                text-align: center;
+                color: white;
+                font-family: Arial;
+            }
+
+        .grid-container form footer {
+            grid-column: 1;
+            font-family: Arial;
+            color: white;
+            text-align: center;
+            border-top: 1px solid white;
+        }
